@@ -2,10 +2,10 @@
 
 /**
  *  _abs - compute the absolute value of an integer
- * int t: the integer to be computed
+ * @t: the integer to be computed
  *  Return: the absolute value
  */
-int _abs(int)
+int _abs(int t)
 {
 if (t >= 0)
 return (t);
