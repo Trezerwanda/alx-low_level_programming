@@ -9,15 +9,15 @@
 * Return: 0 if true, 1 if false
 */
 int main(int argc, char *argv[])
-{	
-if (argc != 3)
 {
+int a, b;
+if (argc == 1)
+{
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+printf("%d\n", a *b);
+return (0);
+}
 printf("Error\n");
 return (1);
-}
-int a = atoi(&argv[1][0]);
-int b = atoi(&argv[2][0]);
-int result = a * b;
-printf("%d", result);
-return (0);
 }
